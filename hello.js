@@ -1,5 +1,5 @@
 const sayHello = function (name){
-  console.log("Hellow, " + name);
+  console.log("Hello, " + name);
 }
 
 sayHello();
@@ -7,3 +7,13 @@ sayHello("Caliban");
 sayHello("Miranda");
 sayHello("Ferdinand");
 
+const sayHelloToConsole  = function (name) {
+  console.log("Hello, " + name);
+}
+sayHelloToConsole('John'); 
+
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+const greeting = returnSayHello('Mike');
+console.log(greeting);
